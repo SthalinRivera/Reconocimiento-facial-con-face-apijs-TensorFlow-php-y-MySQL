@@ -1,0 +1,43 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.video-container-size {
+    width: 100%;
+    height: auto;
+}
+
+.btn-fullscreen {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btn-fullscreen:hover {
+    color: #007bff;
+}
+
+body {
+    background-color: #007bff;
+    background-image: url('../Admin//img/fondo.jpg');
+    /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center;
+    /* Centra la imagen */
+    height: 100vh;
+    /* Ajusta la altura del body al tamaño de la ventana */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el padding predeterminado */
+}
